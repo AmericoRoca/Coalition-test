@@ -32,8 +32,7 @@ div, ul{
     text-decoration: underline;
     font-weight: bold;
 }
-
-.footer-text{
-    display: inline;
-    margin-left: 30px;
+.container-la{
+    margin-top: 200px;
+    align-items: center;
 }

@@ -10,3 +10,5 @@ carrousel.addEventListener("click", function(event) {
         body.style.backgroundImage = `url(${backgroundImageUrl})`;
     }
 });
+
+
