@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://w0.peakpx.com/wallpaper/205/599/HD-wallpaper-skyscraper-building-city-los-angeles-in-mountains-background-usa-travel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 30%;
+}
+
+div ul{
+    margin-left: 450px;
+} 
+
+
+.navbar{
+    background-color: transparent;
+    padding: 10px;
+}
+
+.nav-item{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.main{
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+.cero, .history{ 
+    color: white;
+    font-weight: bold;
+}
+
+.cero{
+    margin-top: 80px;
+    font-size: 150px;
+    display: inline;
+}
+
+.history{
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+.text{
+    color: white;
+}
+.carrousel-container{
+    width: 100%;
+    height: 100%;
+}
+
+.carrousel{
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 80px;
+}
+
+.carrousel-image{
+    width: 250px;
+    display: inline;
+    cursor: pointer;
+}
+
+.carrousel-image:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+
+
+.footer{
+    height: 150px;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 80px;
+    display: inline;
+    margin-left: 50px;
+}
+
+.footer-text{
+    display: inline;
+    margin-left: 20px;
+    text-align: center;
+}
+
+@media (max-width: 1199px){
+
+    .carrousel-image{
+        width: 200px;
+    }
+}
+
+@media (max-width: 991px){
+
+    .carrousel-image{
+        width: 150px;
+    }
+}
+

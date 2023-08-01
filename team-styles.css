@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://w0.peakpx.com/wallpaper/205/599/HD-wallpaper-skyscraper-building-city-los-angeles-in-mountains-background-usa-travel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 30%;
+}
+
+div, ul{
+    margin-left: 450px;
+} 
+
+
+.navbar{
+    background-color: transparent;
+    padding: 10px;
+}
+
+.nav-item{
+    text-decoration: underline;
+    font-weight: bold;
+}
