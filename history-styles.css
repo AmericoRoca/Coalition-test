@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://w0.peakpx.com/wallpaper/205/599/HD-wallpaper-skyscraper-building-city-los-angeles-in-mountains-background-usa-travel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 30%;
+}
+
+div ul{
+    margin-left: 450px;
+} 
+
+
+.navbar{
+    background-color: transparent;
+    padding: 10px;
+}
+
+.nav-item{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.main{
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+.cero, .history{ 
+    color: white;
+    font-weight: bold;
+    display: inline;
+}
+
+.cero{
+    margin-top: 80px;
+    font-size: 150px;
+    display: inline;
+    margin-right: 0;
+    padding: 0 auto;
+}
+
+.point{
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 170px;
+    margin-top: -47px;
+    margin-right: -1px;
+    margin-bottom: 0px;
+}
+
+.history {
+    display: inline-flex;
+    margin-bottom: 50px;
+    margin-top: -85px;
+    font-size: 50px;
+    float: right;
+    margin-right: 960px;
+}
+
+@media (max-width: 1399px) {
+    .history {
+        display: inline-flex;
+        margin-bottom: 50px;
+        margin-top: -85px;
+        font-size: 50px;
+        float: right;
+        margin-right: 780px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .history {
+
+        float: right;
+        margin-right: 590px;
+    }
+}
+
+@media (max-width: 991px) {
+    .history {
+        float: right;
+        margin-right: 355px;
+    }
+}
+
+@media (max-width: 767px) {
+    .history {
+        float: right;
+        margin-right: 175px;
+    }
+}
+
+@media (max-width: 575px) {
+    .history {
+        float: right;
+        margin-right: 207px;
+    }
+}
+
+@media (max-width: 565px) {
+    .history {
+        float: right;
+        margin-right: 200px;
+    }
+}
+
+@media (max-width: 560px) {
+    .history {
+        float: right;
+        margin-right: 195px;
+    }
+}
+
+@media (max-width: 560px) {
+    .history {
+        float: right;
+        margin-right: 195px;
+    }
+}
+
+@media (max-width: 555px) {
+    .history {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-right: 300px;
+    }
+    .text{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 555px) {
+    .history {
+        margin-left: 15px;
+    }
+
+    
+    
+}
+
+@media (max-width: 500px) {
+    .history {
+        font-size: 30px;
+        margin: 10px;
+        position: static;
+        float: none;
+        transform: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .history {
+        font-size: 30px;
+        margin: 10px;
+        position: static;
+        float: none;
+        transform: none;
+    }
+}
+
+
+
+
+
+.text{
+    margin-top: 50px;
+    color: white;
+}
+.carrousel-container{
+    width: 100%;
+    height: 100%;
+
+}
+
+.carrousel{
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 80px;
+}
+
+.carrousel-image{
+    width: 250px;
+    display: inline;
+    cursor: pointer;
+    height: 170px;
+}
+
+.carrousel-image:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+
+
+.footer{
+    height: 150px;
+    align-items: center;
+}
+
+.logo-footer{
+    width: 80px;
+    display: inline;
+    margin-left: 50px;
+}
+
+.footer-text{
+    display: inline;
+    margin-left: 20px;
+    text-align: center;
+}
+
+@media (max-width: 1199px){
+
+    .carrousel-image{
+        width: 200px;
+    }
+}
+
+@media (max-width: 991px){
+
+    .carrousel-image{
+        width: 150px;
+    }
+}
+
