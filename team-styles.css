@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-image: url("https://w0.peakpx.com/wallpaper/205/599/HD-wallpaper-skyscraper-building-city-los-angeles-in-mountains-background-usa-travel.jpg");
@@ -7,36 +7,38 @@ body{
     background-attachment: fixed;
 }
 
-.logo{
+.logo {
     width: 30%;
 }
 
 .barra .barra-ul {
     margin-left: 450px;
-} 
+}
 
-.navbar{
+.navbar {
     background-color: transparent;
     padding: 10px;
 }
 
-.nav-item{
+.nav-item {
     text-decoration: underline;
     font-weight: bold;
 }
-.main{
+
+.main {
     height: 100%;
     margin-top: 50px;
     margin-bottom: 250px;
 }
 
-.cero, .history{ 
+.cero,
+.history {
     color: white;
     font-weight: bold;
     display: inline;
 }
 
-.cero{
+.cero {
     margin-top: 80px;
     font-size: 150px;
     display: inline;
@@ -44,7 +46,7 @@ body{
     padding: 0 auto;
 }
 
-.point{
+.point {
     border: 1px solid white;
     width: 20px;
     height: 20px;
@@ -72,7 +74,6 @@ body{
     }
 }
 
-
 @media (max-width: 1199px) {
     .history {
         float: right;
@@ -84,6 +85,10 @@ body{
     .history {
         float: right;
         margin-right: 397px;
+    }
+
+    .barra .barra-ul {
+        margin-left: 0;
     }
 }
 
@@ -112,7 +117,7 @@ body{
     }
 }
 
-.text{
+.text {
     color: white;
     display: inline;
     float: left;
@@ -125,15 +130,13 @@ body{
     }
 }
 
-
 @media (max-width: 767px) {
-    
     .text {
         margin-bottom: 50px;
     }
 }
 
-.container-bar{
+.container-bar {
     background-color: #414f6b;
     height: 47px;
     margin-bottom: 50px;
@@ -149,25 +152,25 @@ body{
 @media (max-width: 518px) {
     .container-bar {
         margin-top: 320px;
-       height: 90px;
+        height: 90px;
     }
 }
 
 @media (max-width: 518px) {
     .container-bar {
-       height: 150px;
-       width: 100%;
+        height: 150px;
+        width: 100%;
     }
 }
 
 @media (max-width: 510px) {
     .container-bar {
-       height: 180px;
-       width: 100%;
+        height: 180px;
+        width: 100%;
     }
 }
 
-.nav-items{
+.nav-items {
     margin-left: 270px;
 }
 
@@ -189,33 +192,30 @@ body{
     }
 }
 
-
-
 @media (max-width: 767px) {
     .nav-items {
-       margin-left: 100px;
+        margin-left: 100px;
     }
 }
 
 @media (max-width: 518px) {
     .nav-items {
-       margin-left: 10px;
+        margin-left: 10px;
     }
 }
 
-
-.link:hover{
+.link:hover {
     background-color: grey;
 }
 
-.item{
+.item {
     text-decoration: none;
     display: inline;
 }
 
-.link{
+.link {
     display: inline;
-    color:white;
+    color: white;
     margin-right: 10px;
     font-size: 30px;
     font-weight: bold;
@@ -225,12 +225,11 @@ body{
 }
 
 @media (max-width: 860px) {
-
     .container-bar {
         height: 180px;
         width: 100%;
     }
-    .item{
+    .item {
         display: block;
     }
 
@@ -240,13 +239,12 @@ body{
 }
 
 @media (max-width: 470px) {
-
     .container-bar {
         margin-top: 420px;
         height: 180px;
         width: 100%;
     }
-    .item{
+    .item {
         display: block;
     }
 
@@ -255,33 +253,25 @@ body{
     }
 }
 
-
 @media (max-width: 510px) {
-    .container-bar{
+    .container-bar {
         width: 100%;
         position: static;
         float: none;
         transform: none;
     }
- 
-     .item{
-         display: block;
-     }
- 
-     .link{
-         font-size: 20px;
-     }
-    .item{
+
+    .item {
         display: block;
     }
 
-    .link{
+    .link {
         font-size: 20px;
     }
 }
 
 @media (max-width: 360px) {
-    .container-bar{
+    .container-bar {
         margin-top: 500px;
         height: 100px;
         width: 100%;
@@ -289,23 +279,15 @@ body{
         float: none;
         transform: none;
     }
- 
-     .item{
-         display: block;
-     }
- 
-     .link{
-         font-size: 20px;
-     }
-    .item{
+
+    .item {
         display: block;
     }
 
-    .link{
+    .link {
         font-size: 20px;
     }
 }
-
 
 @media (max-width: 500px) {
     .history {
@@ -364,86 +346,72 @@ body{
 
 @media (max-width: 360px) {
     .container-bar {
-
-        width: 1000px;
-        margin-top: 1000px;
+        width: 100%;
+        margin-top: 550px;
     }
 }
 
-
-
-.label-container{
+.label-container {
     width: 100%;
     height: 100%;
     margin-bottom: 50px;
 }
 
-.caja{
+.caja {
     display: none;
 }
 
-.show{
+.show {
     display: block;
 }
 
-.label{
-    width: 500px;
-    height: 300px;
+.label {
+    width: 100%;
+    height: auto;
     background-color: white;
 }
 
-.title-label{
+.title-label {
     color: blue;
     margin-left: 20px;
     margin-top: 10px;
 }
 
-.text-label{
+.text-label {
     margin-left: 20px;
     margin-top: 5px;
 }
 
-.carrousel-image{
-    width: 250px;
+.carrousel-image {
+    width: 100%;
+    max-width: 250px;
     display: inline;
     cursor: pointer;
-    height: 170px;
+    height: auto;
 }
 
-.carrousel-image:hover{
+.carrousel-image:hover {
     transform: scale(1.1);
     transition: all 300ms;
 }
 
-
-.footer{
+.footer {
     height: 150px;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: #343a40;
+    color: white;
 }
 
-.logo-footer{
+.logo-footer {
     width: 80px;
     display: inline;
     margin-left: 50px;
 }
 
-.footer-text{
+.footer-text {
     display: inline;
     margin-left: 20px;
     text-align: center;
 }
-
-@media (max-width: 1199px){
-
-    .carrousel-image{
-        width: 200px;
-    }
-}
-
-@media (max-width: 991px){
-
-    .carrousel-image{
-        width: 150px;
-    }
-}
-

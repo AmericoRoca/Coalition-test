@@ -1,38 +1,101 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-image: url("https://w0.peakpx.com/wallpaper/205/599/HD-wallpaper-skyscraper-building-city-los-angeles-in-mountains-background-usa-travel.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-
-.logo{
+  }
+  
+  .logo {
     width: 30%;
-}
-
-.navbar .navbar-expand-lg .navbar-light .bg-light{
+    max-width: 100px; /* Agrega el máximo tamaño para hacerlo responsive */
+  }
+  
+  .navbar {
     background-image: url("https://w0.peakpx.com/wallpaper/205/599/HD-wallpaper-skyscraper-building-city-los-angeles-in-mountains-background-usa-travel.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-div, ul{
-    margin-left: 450px;
-} 
-
-.navbar{
     background-color: transparent;
     padding: 10px;
-}
-
-.nav-item{
-    text-decoration: underline;
-    font-weight: bold;
-}
-.container-la{
-    margin-top: 200px;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .barra {
+    justify-content: flex-end; /* Alinea los elementos de la barra a la derecha */
+  }
+  
+  /* Estilos para los elementos de la barra de navegación */
+  .barra-ul {
+    display: flex;
     align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .barra-ul li {
+    margin-right: 15px; /* Espacio entre elementos de la barra */
+  }
+  
+  /* Estilos para el botón de la barra de navegación (navbar-toggler) */
+  .navbar-toggler {
+    border: none; /* Elimina el borde del botón */
+  }
+  
+  /* Estilos para ajustar el tamaño de la barra de navegación en pantallas pequeñas */
+  @media (max-width: 820px) {
+    .navbar {
+      width: 600px;
+    }
+    .navbar-toggler {
+      margin-right: 180px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      margin-right: 290px;
+    }
+  }
+  
+  @media (max-width: 912px) {
+    .navbar-collapse {
+      margin-right: 250px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    body {
+      width: 100%;
+    }
+    .navbar {
+      width: 300px;
+    }
+    .navbar-collapse {
+      float: left;
+    }
+    .nav-link {
+      margin-right: 300px;
+    }
+  }
+  
+  /* Estilos para los elementos de la barra de navegación en pantallas pequeñas */
+  @media (max-width: 768px) {
+    .barra-ul {
+      flex-direction: column; /* Coloca los elementos de la barra en una columna */
+      align-items: center; /* Centra los elementos de la columna */
+    }
+    .barra-ul li {
+      margin-right: 0; /* Elimina el espacio entre elementos en pantallas pequeñas */
+      margin-bottom: 10px; /* Espacio entre elementos en la columna */
+    }
+  }
+
+  @media (max-width: 900px){
+
+    .barra .barra-ul{
+        margin-left: 0;
+    } 
 }
