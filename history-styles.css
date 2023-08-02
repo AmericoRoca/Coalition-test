@@ -11,7 +11,7 @@ body{
     width: 30%;
 }
 
-div ul{
+.barra .barra-ul{
     margin-left: 450px;
 } 
 
@@ -167,10 +167,6 @@ div ul{
     }
 }
 
-
-
-
-
 .text{
     margin-top: 50px;
     color: white;
@@ -231,3 +227,9 @@ div ul{
     }
 }
 
+@media (max-width: 900px){
+
+    .barra .barra-ul{
+        margin-left: 0;
+    } 
+}
