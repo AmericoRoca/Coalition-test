@@ -118,6 +118,14 @@ body{
     float: left;
 }
 
+@media (max-width: 370px) {
+    .text {
+        width: 50%;
+        margin-right: 50px;
+    }
+}
+
+
 @media (max-width: 767px) {
     
     .text {
@@ -169,11 +177,20 @@ body{
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .nav-items {
-        margin-left: 0;
+        margin-left: 110px;
     }
 }
+
+@media (max-width: 920px) {
+    .nav-items {
+        margin-left: 80px;
+    }
+}
+
+
+
 @media (max-width: 767px) {
     .nav-items {
        margin-left: 100px;
@@ -207,6 +224,37 @@ body{
     text-align: center;
 }
 
+@media (max-width: 860px) {
+
+    .container-bar {
+        height: 180px;
+        width: 100%;
+    }
+    .item{
+        display: block;
+    }
+
+    .nav-items {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 470px) {
+
+    .container-bar {
+        margin-top: 420px;
+        height: 180px;
+        width: 100%;
+    }
+    .item{
+        display: block;
+    }
+
+    .nav-items {
+        margin-left: 60px;
+    }
+}
+
 
 @media (max-width: 510px) {
     .container-bar{
@@ -232,6 +280,33 @@ body{
     }
 }
 
+@media (max-width: 360px) {
+    .container-bar{
+        margin-top: 500px;
+        height: 100px;
+        width: 100%;
+        position: static;
+        float: none;
+        transform: none;
+    }
+ 
+     .item{
+         display: block;
+     }
+ 
+     .link{
+         font-size: 20px;
+     }
+    .item{
+        display: block;
+    }
+
+    .link{
+        font-size: 20px;
+    }
+}
+
+
 @media (max-width: 500px) {
     .history {
         font-size: 30px;
@@ -251,6 +326,50 @@ body{
         transform: none;
     }
 }
+
+@media (max-width: 326px) {
+    .container-bar {
+        width: 100%;
+        margin-top: 550px;
+    }
+}
+
+@media (max-width: 324px) {
+    .container-bar {
+        width: 100%;
+        margin-top: 550px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container-bar {
+        width: 100%;
+        margin-top: 550px;
+    }
+}
+
+@media (max-width: 410px) {
+    .container-bar {
+        width: 100%;
+        margin-top: 550px;
+    }
+}
+
+@media (max-width: 370px) {
+    .container-bar {
+        width: 100%;
+        margin-top: 550px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container-bar {
+
+        width: 1000px;
+        margin-top: 1000px;
+    }
+}
+
 
 
 .label-container{
