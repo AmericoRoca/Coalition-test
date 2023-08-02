@@ -12,14 +12,14 @@ body{
     width: 30%;
 }
 
-.navbar .navbar-expand-lg .navbar-light .bg-light{
+.navbar{
     background-image: url("https://w0.peakpx.com/wallpaper/205/599/HD-wallpaper-skyscraper-building-city-los-angeles-in-mountains-background-usa-travel.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-div, ul{
+.barra .barra-ul {
     margin-left: 450px;
 } 
 
@@ -28,9 +28,27 @@ div, ul{
     padding: 10px;
 }
 
-.nav-item{
+.barra-ul{
+    margin-top: 5px;
+}
+
+.barra-ul .nav-item{
     text-decoration: underline;
     font-weight: bold;
+
+}
+.nav-item:hover{
+    background-color: grey;
+}
+
+.nav-link{
+    color: black;
+    text-align: center;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+    transform: all 300ms;
 }
 .container-la{
     margin-top: 200px;
